@@ -1,84 +1,66 @@
-**Fouling Factor Prediction in Heat Exchanger Systems**
+# Fouling Factor Prediction in Heat Exchanger Systems
 
-This project uses Machine Learning and Deep Learning models to predict the fouling factor in heat exchangers.
+This repository contains Python implementations for:
 
-Fouling is the buildup of unwanted deposits inside heat exchangers, which reduces heat transfer efficiency and increases energy consumption. Predicting fouling helps in better maintenance planning and improved system performance.
+- Data preprocessing and feature analysis  
+- Statistical and machine learning models for fouling prediction  
+- Deep learning models for nonlinear and time-dependent behavior  
 
-**Project Goal**
+---
 
-To compare different data-driven models and find which method best predicts fouling behavior using process data.
+## 1. Data Processing and Feature Analysis
 
-**Models Used**
+**Folder:** `Dataset`
 
-Linear Regression
+Process data from heat exchanger systems is used to analyze the factors influencing fouling behavior.
 
-Ridge Regression
+**Includes:**
 
-Lasso Regression
+- Data cleaning and preparation  
+- Feature correlation analysis  
+- Dimensionality reduction using PCA  
 
-PCA-based Modeling
+These steps help improve model accuracy and reduce redundancy in input variables.
 
-Auto-Regressive Model
+---
 
-Artificial Neural Network (ANN)
+## 2. Machine Learning Models
 
-LSTM (Recurrent Neural Network)
+**Folder:** `ALL_CODES`
 
-Each model is written separately for easy comparison.
+Builds multiple regression-based models to predict the fouling factor:
 
-**Project Structure**
+- Linear Regression  
+- Ridge Regression  
+- Lasso Regression  
+- PCA-based modeling  
+- Auto-Regressive model  
 
-ALL_CODES/   → All machine learning & deep learning model scripts  
-Dataset/     → Dataset used for training and testing  
-PDF File     → Project presentation/documentation  
+These models provide baseline and regularized approaches for fouling prediction.
 
-**Tools & Libraries**
+---
 
-Python
+## 3. Deep Learning Models
 
-NumPy
+**Folder:** `ALL_CODES`
 
-Pandas
+Implements neural network-based approaches to capture nonlinear fouling dynamics:
 
-Scikit-learn
+- Conventional Artificial Neural Network (ANN)  
+- LSTM (Long Short-Term Memory) network  
 
-TensorFlow / Keras
+These models are used to learn complex relationships and time-dependent fouling trends.
 
-Matplotlib
+---
 
-**Model Evaluation**
+## Results
 
-Model performance is measured using:
+Model performance is evaluated using:
 
-Mean Squared Error (MSE)
+- Mean Squared Error (MSE)  
+- Root Mean Squared Error (RMSE)  
+- R² Score  
 
-Root Mean Squared Error (RMSE)
+Comparisons between models highlight the effectiveness of deep learning methods in predicting fouling behavior.
 
-R² Score
-
-**How to Run**
-
-Run any model file like this:
-
-python ALL_CODES/lstm.py
-
-**Applications**
-
-Predictive maintenance
-
-Energy efficiency improvement
-
-Industrial heat exchanger monitoring
-
-**Future Work**
-
-Hyperparameter tuning
-
-Model optimization
-
-Real-time prediction system
-
-**Author**
-
-Priyam Sharma
-Chemical Engineering | Machine Learning
+Simulation outputs, performance comparison, and analysis are documented in the attached project presentation.
