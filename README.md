@@ -1,14 +1,14 @@
-🔥 Fouling Factor Prediction in Heat Exchanger Systems
+**Fouling Factor Prediction in Heat Exchanger Systems**
 
 This project uses Machine Learning and Deep Learning models to predict the fouling factor in heat exchangers.
 
 Fouling is the buildup of unwanted deposits inside heat exchangers, which reduces heat transfer efficiency and increases energy consumption. Predicting fouling helps in better maintenance planning and improved system performance.
 
-🎯 Project Goal
+**Project Goal**
 
 To compare different data-driven models and find which method best predicts fouling behavior using process data.
 
-🧠 Models Used
+**Models Used**
 
 Linear Regression
 
@@ -26,12 +26,12 @@ LSTM (Recurrent Neural Network)
 
 Each model is written separately for easy comparison.
 
-📂 Project Structure
+**Project Structure**
 ALL_CODES/   → All machine learning & deep learning model scripts  
 Dataset/     → Dataset used for training and testing  
 PDF File     → Project presentation/documentation  
 
-⚙️ Tools & Libraries
+**Tools & Libraries**
 
 Python
 
@@ -45,7 +45,7 @@ TensorFlow / Keras
 
 Matplotlib
 
-📊 Model Evaluation
+**Model Evaluation**
 
 Model performance is measured using:
 
@@ -55,13 +55,13 @@ Root Mean Squared Error (RMSE)
 
 R² Score
 
-🚀 How to Run
+**How to Run**
 
 Run any model file like this:
 
 python ALL_CODES/lstm.py
 
-💡 Applications
+**Applications**
 
 Predictive maintenance
 
@@ -69,7 +69,7 @@ Energy efficiency improvement
 
 Industrial heat exchanger monitoring
 
-🔮 Future Work
+**Future Work**
 
 Hyperparameter tuning
 
@@ -77,7 +77,7 @@ Model optimization
 
 Real-time prediction system
 
-👨‍💻 Author
+**Author**
 
 Priyam Sharma
 Chemical Engineering | Machine Learning
