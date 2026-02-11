@@ -27,6 +27,7 @@ LSTM (Recurrent Neural Network)
 Each model is written separately for easy comparison.
 
 **Project Structure**
+
 ALL_CODES/   → All machine learning & deep learning model scripts  
 Dataset/     → Dataset used for training and testing  
 PDF File     → Project presentation/documentation  
